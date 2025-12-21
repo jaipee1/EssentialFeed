@@ -85,10 +85,18 @@
 			children = (
 				3BB3291F2EF79DAC00D81E43 /* EssentialFeed.docc */,
 				3BB329202EF79DAC00D81E43 /* EssentialFeed.swift */,
+				3BB329282EF79F6F00D81E43 /* FeedFeature */,
+			);
+			path = EssentialFeed;
+			sourceTree = "<group>";
+		};
+		3BB329282EF79F6F00D81E43 /* FeedFeature */ = {
+			isa = PBXGroup;
+			children = (
 				3BB329242EF79DF200D81E43 /* FeedItem.swift */,
 				3BB329262EF79E8300D81E43 /* FeedLoader.swift */,
 			);
-			path = EssentialFeed;
+			path = FeedFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
