@@ -55,7 +55,7 @@ class URLSessionHTTPClientTests: XCTestCase {
     }
 
     func test_getFromURL_failsOnRequestError() {
-        let requestedError = NSError(domain: "any error", code: 1)
+        let requestedError = anyNSError()
         let receivedError = resultErrorFor(data: nil, response: nil, error: requestedError) as NSError?
         XCTAssertEqual(receivedError?.domain, requestedError.domain)
         XCTAssertEqual(receivedError?.code, requestedError.code)
